@@ -1,0 +1,53 @@
+api query 
+
+
+
+# {
+  # quest(id:4){
+  #   id
+  #   title
+  #   reward
+  #   description
+  # }
+  
+#    quests{
+#     id
+#     title
+#     reward
+#     description
+#   }
+# }
+mutation {
+  # createQuest( 
+  #   title:"jalalnx"
+  #   description: "hit insert in my ap"
+  #   reward : 20
+  #   category_id:1 
+  # ){
+  # id
+  #   title
+  #   reward
+  #   category{
+  #     title
+  #   }
+  #   description
+  #  }
+  
+  # updateQuest( 
+  #   id:11
+  #   title:"Daroat jalal"
+  #   description: "hit update in my ap"
+  #   reward : 200
+  #   category_id:3 
+  # ){
+  # id
+  #   title
+  #   reward
+  #   category{
+  #     title
+  #   }
+  #   description
+  #  }
+  
+  deleteQuest(id:11)
+}
