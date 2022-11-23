@@ -1,17 +1,18 @@
 <?php
 
-// app/graphql/queries/quest/QuestQuery 
 
 namespace App\GraphQL\Queries\Quest;
+// app/graphql/queries/quest/QuestQuery 
+
 
 use App\Models\Quest;
 use GraphQL\Type\Definition\Type;
-
 use Rebing\GraphQL\Support\Facades\GraphQL;
 use Rebing\GraphQL\Support\Query;
 
 class QuestQuery extends Query
 {
+
           //query configuration.
     protected $attributes = [
         'name' => 'quest',

@@ -1,8 +1,10 @@
 <?php
 
-// app/graphql/queries/category/CategoryQuery 
 
 namespace App\GraphQL\Queries\Category;
+
+// app/graphql/queries/category/CategoryQuery 
+
 
 use App\Models\Category;
 use GraphQL\Type\Definition\Type;
@@ -11,6 +13,8 @@ use Rebing\GraphQL\Support\Query;
 
 class CategoryQuery extends Query
 {
+  
+
     protected $attributes = [
         'name' => 'category',
     ];
