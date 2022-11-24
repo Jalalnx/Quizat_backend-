@@ -39,10 +39,10 @@ class CheckAccess
         
 
         // $configuration = new SdkConfiguration(
-        // domain: 'https://dev-iwack5ph0aok5elz.us.auth0.com/',
-        // clientId:'YTX6wqx7qaEpRCHkhtUkcDi6nV2h0q9G',
-        // clientSecret: 'cxsp2Zim-2r8xEsqfXBKaHOSmh2DvWvtfwyRwoMaiHvKVF_IVpO5vGymvG8IW0f4',
-        // cookieSecret: '2r8xEsqfXBKaHOSmh2DvWvtfwyRwoMaiHvKVF_IVpO5vGymvG8IW0f4'.Str::random(15),
+        // domain: '',
+        // clientId:'',
+        // clientSecret: '',
+        // cookieSecret: ''.Str::random(15),
         // );
 
         // $token = new \Auth0\SDK\Token($configuration, $Bearer, \Auth0\SDK\Token::TYPE_ID_TOKEN);
